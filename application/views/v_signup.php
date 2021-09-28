@@ -11,6 +11,9 @@
 
     <title>Sign Up for free</title>
 
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="<?php echo base_url('asset_home/assets/favicon.png'); ?>" />
+
     <!-- Custom fonts for this template-->
     <link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -21,7 +24,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-success">
 
     <div class="container">
 
@@ -76,7 +79,10 @@
                                 <a class="small" href="forgot-password.html">Forgot Password?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                <a class="small" href="<?php echo base_url('login'); ?>">Already have an account? Login!</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="<?php echo base_url('homepage'); ?>"><?php echo "<< Back"; ?></a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +92,7 @@
 
     </div>
 
-     <!-- Bootstrap core JavaScript-->
+    <!-- Bootstrap core JavaScript-->
     <script src="<?php echo base_url('assets/jquery/jquery.min.js'); ?>"></script>
     <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
 

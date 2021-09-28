@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>CV Generator</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="<?php echo base_url('asset_home/assets/favicon.ico'); ?>" />
+        <link rel="icon" type="image/png" href="<?php echo base_url('asset_home/assets/favicon.png'); ?>" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
         <!-- Google fonts-->
@@ -17,9 +17,9 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-dark bg-primary static-top">
+        <nav class="navbar navbar-dark bg-success static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">CV GENERATOR</a>
+                <a class="navbar-brand" href="#!">CV Generator</a>
                 <a class="btn btn-primary" href="<?php echo base_url('login'); ?>">Sign In</a>
             </div>
         </nav>
@@ -36,9 +36,7 @@
                             <form>
                                 <div class="input-group input-group-lg">
                                     <input class="form-control" type="text" placeholder="Enter your email..." aria-label="Enter your email..." aria-describedby="button-submit" />
-                                    <button class="btn btn-primary" id="button-submit" type="button" >
-                                        <a href="<?php echo base_url('signup'); ?>" class="text-white" style="text-decoration:none">Sign up!</a>                                       
-                                    </button>
+                                    <a href="<?php echo base_url('signup'); ?>" class="btn btn-success" id="button-submit" type="button">Sign up!</a>
                                 </div>
                             </form>
                         </div>
@@ -52,21 +50,21 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-success"></i></div>
                             <h3>Fully Responsive</h3>
                             <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
+                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-success"></i></div>
                             <h3>Bootstrap 5 Ready</h3>
                             <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-success"></i></div>
                             <h3>Easy to Use</h3>
                             <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
                         </div>
@@ -139,7 +137,8 @@
                         <form>
                             <div class="input-group input-group-lg">
                                 <input class="form-control" type="text" placeholder="Enter your email..." aria-label="Enter your email..." aria-describedby="button-submit" />
-                                <button class="btn btn-primary" id="button-submit" type="button">Sign up!</button>
+                                <!--<button class="btn btn-success" id="button-submit" type="button">Sign up!</button>-->
+                                <a href="<?php echo base_url('signup'); ?>" class="btn btn-success" id="button-submit" type="button">Sign up!</a>
                             </div>
                         </form>
                     </div>
@@ -147,32 +146,41 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-light">
+        <footer class="footer bg-success text-white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
                         <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
+                            <li class="list-inline-item"><a href="#!" class="text-white" style="text-decoration:none">About</a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
+                            <li class="list-inline-item"><a href="#!" class="text-white" style="text-decoration:none">Contact</a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                            <li class="list-inline-item"><a href="#!" class="text-white" style="text-decoration:none">Terms of Use</a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#!" class="text-white" style="text-decoration:none">Privacy Policy</a></li>
                         </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2021. All Rights Reserved.</p>
+                        <br>
+                        <p class="small mb-4 mb-lg-0 text-white">&copy; Created by Hatrick Febriadi Aslam.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
-                            <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
-                            </li>
-                            <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                            
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-facebook fs-3 text-white"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                                <a href="#!"><i class="bi-twitter fs-3 text-white"></i></a>
                             </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-whatsapp fs-3 text-white"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-instagram fs-3 text-white"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-linkedin fs-3 text-white"></i></a>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
